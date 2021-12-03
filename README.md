@@ -1,5 +1,29 @@
 ## Environment Design: Predicting Emotions an Artwork evokes
 
+**Workflow**
+
+[Notebook1: Scraping of Images](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/1_scrape_images.ipynb) 
+
+[Notebook2: EDA of the different datasets](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/2_data_organization_EDA.ipynb) 
+
+[Notebook3_t30: Multiclass multilabel, using dataset with 30% threshold](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/3_t30_model_20_class_multilabel.ipynb) 
+
+[Notebook3_t50: Multiclass multilabel, using dataset with 50% threshold](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/3_t50_20_class_multilabel.ipynb) 
+
+[Notebook4: Multiclass single label](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/4_20_class_single_label.ipynb) 
+
+[Notebook5: Binary with happiness and surprise as the 2 classes](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/5_binary_happiness_surprise.ipynb) 
+
+[Notebook6: Binary with positive and negative as the 2 classes](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/6_binary_positive_neg.ipynb) 
+
+[Notebook7: Three classes with positive, mixed and negative emotions](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7_three_classes.ipynb) 
+
+In case this last notebook doesn't render, as it is a really large file; here are 2 files: The first one is the building of the model, the second one is the code for the image prediction/ evaluation. The results of these predictions can mostly be found in the presentation. 
+
+[Notebook7: 3-class modeling](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7a_three_classes_modeling.ipynb) 
+
+[Notebook7: 3-class predicting](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7b_three_classes_predictions.ipynb) 
+
 **Abstract**
 
 This project uses the datasets from a psychological study by Saif M. Mohammad and Svetlana Kiritchenko in which 20 annotators were shown over 4000 artworks and asked to write down the emotions the artworks evoked. The images from the dataset were scraped from WikiArt website, which is a rich database of artworks. Several deep learning models were built in order to predict the emotion evoked by the artwork. The binary classification model for whether the image evokes positive or negative emotions achieved 71% accuracy, while the tri-class model which is closer to the original study in which the authors divide the emotions into mixed, positive and negative classes achieved a 68% accuracy. The project was proposed to be put to a business use case to be deployed for an environment design by use of certain images, specifically the design of a film set. 
