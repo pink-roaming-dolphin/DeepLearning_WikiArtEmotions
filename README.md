@@ -24,6 +24,8 @@ In case this last notebook doesn't render, as it is a really large file; here ar
 
 [Notebook7b: 3-class predicting](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7b_three_classes_predictions.ipynb) 
 
+[Presentation](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/Presentation_DL_Wikiart_Emotions.pdf) 
+
 **Abstract**
 
 This project uses the datasets from a psychological study by Saif M. Mohammad and Svetlana Kiritchenko in which 20 annotators were shown over 4000 artworks and asked to write down the emotions the artworks evoked. The images from the dataset were scraped from WikiArt website, which is a rich database of artworks. Several deep learning models were built in order to predict the emotion evoked by the artwork. The binary classification model for whether the image evokes positive or negative emotions achieved 71% accuracy, while the tri-class model which is closer to the original study in which the authors divide the emotions into mixed, positive and negative classes achieved a 68% accuracy. The project was proposed to be put to a business use case to be deployed for an environment design by use of certain images, specifically the design of a film set. 
