@@ -20,9 +20,9 @@
 
 In case this last notebook doesn't render, as it is a really large file; here are 2 files: The first one is the building of the model, the second one is the code for the image prediction/ evaluation. The results of these predictions can mostly be found in the presentation. 
 
-[Notebook7: 3-class modeling](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7a_three_classes_modeling.ipynb) 
+[Notebook7a: 3-class modeling](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7a_three_classes_modeling.ipynb) 
 
-[Notebook7: 3-class predicting](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7b_three_classes_predictions.ipynb) 
+[Notebook7b: 3-class predicting](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/7b_three_classes_predictions.ipynb) 
 
 **Abstract**
 
