@@ -37,8 +37,7 @@ The other 3 datasets are one hot encoded to show whether an emotion was evoked b
 
 **Communication**
 
-The project was presented with a slideshow, and can be found as a presentation PDF. 
-[Presentation](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/Presentation_DL_Wikiart_Emotions.pdf) 
+The project was presented with a slideshow, and can be found as a presentation PDF [here](https://github.com/zey-o/DeepLearning_Wikiart_Emotions/blob/main/Presentation_DL_Wikiart_Emotions.pdf) 
 
 **Workflow**
 
